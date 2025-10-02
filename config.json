@@ -1,0 +1,37 @@
+{
+  "levels": [
+    {
+      "number": 1,
+      "timeLimit": 60,
+      "goal": 15,
+      "spawnRate": 0.8,
+      "obstacles": 2,
+      "crows": 1
+    },
+    {
+      "number": 2,
+      "timeLimit": 45,
+      "goal": 20,
+      "spawnRate": 0.4,
+      "obstacles": 6,
+      "crows": 2
+    },
+    {
+      "number": 3,
+      "timeLimit": 30,
+      "goal": 25,
+      "spawnRate": 0.2,
+      "obstacles": 10,
+      "crows": 3
+    }
+  ],
+  "cropTypes": {
+    "wheat": { "points": 1, "spawnWeight": 0.6 },
+    "pumpkin": { "points": 3, "spawnWeight": 0.3 },
+    "goldenApple": { "points": 5, "spawnWeight": 0.1 }
+  },
+  "powerUps": {
+    "speedBoost": { "duration": 5, "spawnChance": 0.1 },
+    "scythe": { "duration": 3, "spawnChance": 0.05 }
+  }
+}
